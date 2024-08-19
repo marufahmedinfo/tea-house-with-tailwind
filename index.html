@@ -19,16 +19,19 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-              }
-            }
-          }
+              },
+              fontfamily:{
+                manrope:['manrope','sans-serif'],
+              },
+            },
+          },
         }
       </script>
     
 
 
 </head>
-<body>
+<body class="font-manrope">
     <main class="max-w-screen-2xl mx-auto px-16 lg:px-38">
         <header class="lg:flex pt-10 mb-20 gap-40">
             <div>
@@ -163,16 +166,80 @@
                         <div class="">
                             <p class="text-gray-500 mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
                             <h1 class="font-bold">Ilham Yuda</h1>
-                            <small class="text-gray-500 font-bold">Businessman</small>
+                            <small class="text-gray-500 font-bold">Designer</small>
                         </div>
                     </div>
                 </div>
             </div>
           </section>
-
-
-        
+          <!-- News section -->  
     </main>
-    <footer></footer>
+    <footer class="bg-orange-100 text-gray-700 py-10 px-4 md:px-16">
+        <div class="w-9/12 mx-auto">
+            <!-- logo -->
+             <div class="mb-8 flex justify-between">
+                <img class="mb-8" src="images/cup.png" alt="loading.....">
+                <div class="flex items-center gap-4">
+                    <h4>Ready to get strated?</h4>
+                    <button class="bg-gradient-to-r from-orange-500 to-red-600 px-4 py-2 rounded-lg text-white font-bold">Get Started</button>
+                </div>
+             </div>
+             <!-- links -->
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-- 1 colam -->
+                 <div class="">
+                    <h3 class="font-bold text-lg mb-3">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a class="hover:text-orange-600" href="#">Home</a></li>
+                        <li><a class="hover:text-orange-600" href="#">About Us</a></li>
+                        <li><a class="hover:text-orange-600" href="#">Insurance</a></li>
+                        <li><a class="hover:text-orange-600" href="#">Privacy Policy</a></li>
+                        
+                    </ul>
+                 </div>
+                 <!-- 2 colam  -->
+                 <div class="">
+                    <h3 class="font-bold text-lg mb-3">Our Service</h3>
+                    <ul class="space-y-2">
+                        <li><a class="hover:text-orange-600" href="#">Life Insurance</a></li>
+                        <li><a class="hover:text-orange-600" href="#">Car Insurance</a></li>
+                        <li><a class="hover:text-orange-600" href="#">Health Insurance</a></li>
+                        <li><a class="hover:text-orange-600" href="#">House Insurance</a></li>
+                        
+                    </ul>
+                 </div>
+                 <!-- 3 colam  -->
+                 <div class="">
+                    <h3 class="font-bold text-lg mb-3">Help</h3>
+                    <ul class="space-y-2">
+                        <li><a class="hover:text-orange-600" href="#">FAQs</a></li>
+                        <li><a class="hover:text-orange-600" href="#">Contact Us</a></li>
+                        
+                    </ul>
+                 </div>
+                 <!-- 4 colam -->
+                  <div class="">
+                    <h3 class="font-bold text-lg mb-3">Subscribe to our newsletter</h3>
+                    <div class="flex flex-col space-y-2">
+                        <div class="">
+                            <input placeholder="Email address" type="text" class="bg-transparent border-b-2 border-black w-4/6">
+                            <i class="fa-solid fa-chevron-right w-7 h-7 bg-gradient-to-r from-orange-500 to-red-600 rounded-full text-white justify-center items-center inline-flex"></i>
+                            <div class="flex justify-center w-2/5 mb-2 mt-8 justify-between">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="text-center pt-4 mt-4">
+                <p class="text-gray-600 text-sm">
+                    © 2027 UIDesign.to - All rights reserved.
+                </p>
+              </div>
+        </div>
+
+    </footer>
 </body>
 </html>
